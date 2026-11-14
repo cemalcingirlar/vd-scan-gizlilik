@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VD-SCAN Gizlilik Politikası</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Arial, sans-serif; max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; line-height: 1.6; color: #1c1b1f; background: #fff; }
+  h1 { color: #C8102E; }
+  h2 { color: #C8102E; margin-top: 32px; font-size: 1.2em; }
+  td, th { border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left; }
+  table { border-collapse: collapse; width: 100%; font-size: .95em; }
+  .muted { color: #666; font-size: .9em; }
+</style>
+</head>
+<body>
+<h1>VD-SCAN Gizlilik Politikası</h1>
+<p class="muted">Son güncelleme: 14 Kasım 2026</p>
+
+<p>VD-SCAN ("uygulama"), Android telefonunuzu virüslere, dolandırıcılık sitelerine ve veri sızıntılarına karşı korumak için tasarlanmış bir güvenlik uygulamasıdır. Gizliliğiniz bizim için önemlidir. Bu politika, uygulamanın hangi bilgileri kullandığını ve nasıl koruduğunu açıklar.</p>
+
+<h2>Kısaca</h2>
+<ul>
+  <li>Hesap açmanız gerekmez. Adınızı, telefon numaranızı veya konumunuzu toplamayız.</li>
+  <li>Taramalar telefonunuzun içinde yapılır. Dosyalarınız, fotoğraflarınız ve uygulamalarınız hiçbir sunucuya gönderilmez.</li>
+  <li>Reklam ve kullanıcı takibi (analitik) yoktur.</li>
+  <li>Bilgilerinizi kimseye satmayız veya paylaşmayız.</li>
+</ul>
+
+<h2>Telefonunuzda kalan bilgiler</h2>
+<p>Aşağıdakiler yalnızca telefonunuzda işlenir ve saklanır, bize ulaşmaz:</p>
+<ul>
+  <li><b>Yüklü uygulamaların listesi ve izinleri:</b> virüs taraması ve güvenlik duvarı için.</li>
+  <li><b>Dosyalarınız:</b> "Tüm dosyalara erişim" izni verirseniz, dosyaların dijital parmak izi (SHA-256) telefonda hesaplanır ve indirilen virüs listesiyle karşılaştırılır. Dosya içerikleri gönderilmez.</li>
+  <li><b>Kontrol ettiğiniz linkler:</b> telefona indirilen sahte site listesiyle telefonda karşılaştırılır.</li>
+  <li><b>Uygulama kullanım süreleri:</b> ebeveyn kontrolü ve temizlik önerileri için (izin verirseniz).</li>
+  <li><b>Şifre kasası ve şifrelenmiş dosyalar:</b> AES-256 ile şifrelenir. Ana şifreniz hiçbir yerde saklanmaz.</li>
+  <li><b>Yedekler:</b> fidye yazılımı koruması için seçtiğiniz klasörün yedeği, uygulamanın kendi korumalı alanında tutulur.</li>
+</ul>
+
+<h2>İnternete giden bilgiler</h2>
+<table>
+  <tr><th>Özellik</th><th>Ne gönderilir</th><th>Kime</th></tr>
+  <tr><td>Virüs listesi güncellemesi</td><td>Hiçbir kişisel bilgi gönderilmez; sadece güncel liste indirilir.</td><td>MalwareBazaar (abuse.ch)</td></tr>
+  <tr><td>Sahte site listesi güncellemesi</td><td>Hiçbir kişisel bilgi gönderilmez; sadece güncel liste indirilir.</td><td>OpenPhish (GitHub üzerinden)</td></tr>
+  <tr><td>Dark Web e-posta kontrolü</td><td>Yalnızca sizin kontrol için yazdığınız e-posta adresi.</td><td>XposedOrNot (veya Have I Been Pwned)</td></tr>
+  <tr><td>Şifre sızıntı kontrolü</td><td>Şifrenizin kendisi gönderilmez. Şifrenin SHA-1 parmak izinin yalnızca ilk 5 karakteri gönderilir ("k-anonimlik" yöntemi).</td><td>Pwned Passwords</td></tr>
+  <tr><td>Wi-Fi kontrolü</td><td>Standart internet bağlantı ve alan adı (DNS) testleri.</td><td>Google genel hizmetleri</td></tr>
+  <tr><td>Abonelik satın alma</td><td>Ödeme işlemleri tamamen Google Play tarafından yapılır. Kart bilgilerinizi görmeyiz.</td><td>Google Play</td></tr>
+</table>
+<p>Bu hizmetlerin kendi gizlilik politikaları geçerlidir.</p>
+
+<h2>Güvenlik duvarı hakkında</h2>
+<p>Güvenlik duvarı, Android'in VPN altyapısını yalnızca telefonun içinde, seçtiğiniz uygulamaların internetini kesmek için kullanır. İnternet trafiğiniz hiçbir sunucuya yönlendirilmez, kaydedilmez veya incelenmez.</p>
+
+<h2>İzinler</h2>
+<p>Uygulama; tarama, güvenlik duvarı, ebeveyn kontrolü, oyun modu ve temizlik özellikleri için ilgili Android izinlerini ister. Özel izinler (tüm dosyalara erişim, kullanım erişimi, Rahatsız Etmeyin erişimi) yalnızca o özelliği kullandığınızda istenir ve Android ayarlarından istediğiniz zaman geri alınabilir.</p>
+
+<h2>Çocuklar</h2>
+<p>Uygulama ebeveynlerin kullanımına yöneliktir ve 13 yaş altındaki çocuklardan bilerek bilgi toplamaz.</p>
+
+<h2>Verilerinizi silme</h2>
+<p>Telefonunuzdaki tüm VD-SCAN verilerini silmek için uygulamayı kaldırmanız veya Ayarlar &gt; Uygulamalar &gt; VD-SCAN &gt; Depolama &gt; Verileri temizle yolunu izlemeniz yeterlidir. Sunucularımızda sizinle ilgili saklanan bir veri yoktur.</p>
+
+<h2>Değişiklikler</h2>
+<p>Bu politika güncellenirse yeni hali bu sayfada yayınlanır ve "Son güncelleme" tarihi değiştirilir.</p>
+
+<h2>İletişim</h2>
+<p>Sorularınız için: <a href="mailto:cemalcingirlar@gmail.com">cemalcingirlar@gmail.com</a></p>
+</body>
+</html>
